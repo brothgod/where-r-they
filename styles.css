@@ -1,0 +1,38 @@
+img {
+  float: left;
+  max-width: 50px;
+  width: auto;
+  height: auto;
+  object-fit: fill;
+}
+
+#imageContainer {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  margin-top: 20vh;
+  height: 60vh;
+}
+
+#allImages,
+#gender,
+#position {
+  text-align: center;
+  margin-top: 5px;
+}
+
+span:hover {
+  background-color: #fc636a !important;
+  color: white !important;
+  cursor: zoom-in;
+}
+
+span:active {
+  background-color: #fc636a !important;
+  color: white !important;
+}
+
+.selected {
+  background-color: #fc636a !important;
+  color: white !important;
+}
